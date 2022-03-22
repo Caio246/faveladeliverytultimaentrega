@@ -1,0 +1,67 @@
+p {
+  padding: 5px;
+}
+
+.pagina-principal-perfil {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  padding-left: 300px;
+  align-self: center;
+}
+
+.capa {
+  background-image: url('../../../components/img/capaback.png');
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 688px;
+  align-self: center;
+  margin-bottom: 100px;
+}
+
+.fotoperfil {
+  position: absolute;
+  top: 530px;
+  width: 120px;
+  height: 100px;
+  border-radius: 20%;
+}
+
+.nome-da-pessoa {
+  font-weight: bold;
+}
+
+.historia {
+  align-self: center;
+  height: 550px;
+  width: 750px;
+}
+
+.notacao {
+  color: grey;
+}
+
+.titulo-destaque {
+  font-weight: 700;
+}
+
+.titulo-destaque2 {
+  width: 539px;
+  height: 40px;
+  left: 433px;
+  top: 626px;
+}
+
+.endereco {
+  display: flex;
+  align-self: baseline;
+}
+
+.endereco p {
+  align-self: center;
+}
+
+.mapa {
+  width: 25px;
+  padding: 2px;
+}
